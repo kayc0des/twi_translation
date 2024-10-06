@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on building a translation model that translates English sentences into Twi, a native language of Ghana. By leveraging a pretrained Hugging Face model and fine-tuning it on a custom dataset of English-to-Twi sentence pairs, the project aims to create an effective and efficient machine translation system for this language pair.
 
-The model is fine-tuned using `MarianMTModel`, a transformer-based architecture optimized for machine translation tasks. A subset of 5,000 data points from a larger dataset of 20,000 English-Twi sentence pairs was used for training to ensure the model is manageable while still providing accurate translations.
+The model is fine-tuned using `MarianMTModel`, a transformer-based architecture optimized for machine translation tasks.
 
 ## Model Ouput vs. Google Translate
 
@@ -41,7 +41,7 @@ pip install torch transformers datasets pandas
 ```
 
 ## Dataset
-The dataset used in this project contains over 20,000 English-Twi sentence pairs. However, due to computational limitations, I used a subset of 5,000 pairs for the fine-tuning process. The dataset was sourced from Zenodo, and it is publicly available for anyone who wants to explore it further.
+The dataset used in this project contains over 25,000 English-Twi sentence pairs. However, due to computational limitations, I used a subset of 5,000 pairs for the fine-tuning process. The dataset was sourced from Zenodo, and it is publicly available for anyone who wants to explore it further.
 
 ## Training
 The model was fine-tuned using a subset of the dataset to reduce training time while still maintaining translation quality. The fine-tuning process involved:
