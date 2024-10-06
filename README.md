@@ -53,6 +53,14 @@ print(f"Translation: {translated_text}")
 
 This function tokenizes the input sentence, generates the translation using the fine-tuned model, and returns the Twi translation.
 
+## Model Ouput vs. Google Translate
+
+### Model Output
+![Google Translate](translation/img/test.png)
+
+### Google Translate
+![Google Translate](translation/img/google.png)
+
 ## Conclusion
 This project demonstrates how a pretrained model like MarianMTModel can be fine-tuned to handle a low-resource language translation task like English to Twi. By utilizing an existing model architecture and focusing on the nuances of the target language pair, this project provides a foundation for further developments in multilingual and low-resource language translations.
 
