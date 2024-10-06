@@ -8,7 +8,7 @@ The model is fine-tuned using `MarianMTModel`, a transformer-based architecture 
 ## Project Structure
 The project is structured as follows:
 
-- Data Preparation: The data used for this task comes from Zenodo and contains over 20,000 English words and their corresponding translations in Twi. For this project, a subset of 5,000 data points was used. This subset was tokenized and prepared for model training.
+- Data Preparation: The data used for this task comes from Zenodo and contains over 20,000 English words and their corresponding translations in Twi.
 
 - Model Fine-Tuning: MarianMTModel was selected as the base model due to its efficiency in multilingual translation tasks. The pretrained model was fine-tuned on the English-Twi dataset to specialize in translating between these two languages.
 
