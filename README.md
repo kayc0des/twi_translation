@@ -5,6 +5,14 @@ This project focuses on building a translation model that translates English sen
 
 The model is fine-tuned using `MarianMTModel`, a transformer-based architecture optimized for machine translation tasks. A subset of 5,000 data points from a larger dataset of 20,000 English-Twi sentence pairs was used for training to ensure the model is manageable while still providing accurate translations.
 
+## Model Ouput vs. Google Translate
+
+### Model Output
+![Google Translate](translation/img/test.png)
+
+### Google Translate
+![Google Translate](translation/img/google.png)
+
 ## Project Structure
 The project is structured as follows:
 
@@ -53,14 +61,6 @@ print(f"Translation: {translated_text}")
 
 This function tokenizes the input sentence, generates the translation using the fine-tuned model, and returns the Twi translation.
 
-## Model Ouput vs. Google Translate
-
-### Model Output
-![Google Translate](translation/img/test.png)
-
-### Google Translate
-![Google Translate](translation/img/google.png)
-
 ## Conclusion
 This project demonstrates how a pretrained model like MarianMTModel can be fine-tuned to handle a low-resource language translation task like English to Twi. By utilizing an existing model architecture and focusing on the nuances of the target language pair, this project provides a foundation for further developments in multilingual and low-resource language translations.
 
@@ -70,5 +70,5 @@ Testing the model on longer and more complex sentences.
 Exploring other models or architectures that might improve the quality of translation for low-resource languages like Twi.
 
 ## Acknowledgments
-Hugging Face for providing accessible pretrained models.
-Zenodo for the dataset used in this project.
+- Hugging Face for providing accessible pretrained models.
+- Zenodo for the dataset used in this project.
