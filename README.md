@@ -61,6 +61,21 @@ print(f"Translation: {translated_text}")
 
 This function tokenizes the input sentence, generates the translation using the fine-tuned model, and returns the Twi translation.
 
+## Model Training Performance
+
+The model was trained on 20366 sentences dataset for 2 epochs. Below is the performance during training and evaluation:
+
+- Training time: 4 hours 2 minutes
+- Training steps: 5084 steps
+- Training loss: 0.3759
+
+## Evaluation Metrics:
+
+- Evaluation loss: 0.2789
+- Evaluation runtime: 188.5866 seconds
+- Evaluation samples per second: 13.479
+- Evaluation steps per second: 1.686
+
 ## Conclusion
 This project demonstrates how a pretrained model like MarianMTModel can be fine-tuned to handle a low-resource language translation task like English to Twi. By utilizing an existing model architecture and focusing on the nuances of the target language pair, this project provides a foundation for further developments in multilingual and low-resource language translations.
 
