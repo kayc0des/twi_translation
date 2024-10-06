@@ -80,9 +80,9 @@ The model was trained on 20366 sentences dataset for 2 epochs. Below is the perf
 This project demonstrates how a pretrained model like MarianMTModel can be fine-tuned to handle a low-resource language translation task like English to Twi. By utilizing an existing model architecture and focusing on the nuances of the target language pair, this project provides a foundation for further developments in multilingual and low-resource language translations.
 
 ## Future Work
-Expanding the dataset beyond the current subset to improve translation accuracy.
-Testing the model on longer and more complex sentences.
-Exploring other models or architectures that might improve the quality of translation for low-resource languages like Twi.
+- Expanding the dataset beyond the current dataset to improve translation accuracy!
+- Testing the model on longer and more complex sentences.
+- Exploring other models or architectures that might improve the quality of translation for low-resource languages like Twi.
 
 ## Acknowledgments
 - Hugging Face for providing accessible pretrained models.
